@@ -1,3 +1,3 @@
-FROM tomcat:9.0
-COPY jsp-servlet-jdbc-mysql-crud-expense.war /usr/local/tomcat/webapps/expense-tracker.war
-EXPOSE 8080
+FROM tomcat:11.0
+COPY jsp-servlet-jdbc-mysql-crud-expense.war /usr/local/tomcat/webapps/ROOT.war
+Expose 8080
